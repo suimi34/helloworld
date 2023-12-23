@@ -6,5 +6,5 @@ set :port, port
 
 get "/" do
   name = ENV["NAME"] || "World"
-  "Hello #{name}!"
+  "Hello #{name}!!"
 end
